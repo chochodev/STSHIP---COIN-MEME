@@ -11,6 +11,15 @@ module.exports = {
         roboto: ['Roboto', 'sans-serif']
       }
     },
+    colors: {
+      'background': '#000000',
+      'primary': '#0055B3',
+      'secondary': '#2ECC40',
+      'secondary-dim': '#175020',
+      'secondary-dark': '#072C0D',
+      'tertiary': '#FF4136',
+      'tertiary2': '#AAAAAA'
+    }
   },
   plugins: [],
 }
