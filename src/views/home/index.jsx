@@ -4,6 +4,10 @@ import HowToBuy from './s2_howtobuy';
 import Charts from './s3_trackingcharts';
 import Tokenomic from './s4_tokenomics';
 import Update from './s5_updates';
+import Video from './s6_videos';
+import Partnership from './s7_partnership';
+import Roadmap from './s8_roadmap';
+import QA from './s9_q&a';
 
 const Home = () => {
   return (
@@ -13,6 +17,10 @@ const Home = () => {
     <Charts />
     <Tokenomic />
     <Update />
+    <Video />
+    <Partnership />
+    <Roadmap />
+    <QA />
     </>
   )
 }
