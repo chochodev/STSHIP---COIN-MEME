@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 :root {
-  --main-font: 'Roboto', sans-serif;
+  --main-font: 'Montserrat', sans-serif;
 }
 
 * {
