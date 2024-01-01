@@ -40,6 +40,11 @@ body {
   background: #000000;
 }
 
+/* Radial gradient for hero section image frame */
+.radial_frame {
+  background: radial-gradient(circle at center, #00000000 0, #000000 80%);
+}
+
 .lorem_testing {
   color: rgb(0, 95, 230);
 }

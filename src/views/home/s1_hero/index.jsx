@@ -42,8 +42,9 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div className='absolute right-0 z-[-1] bg-gradient '>
-        <img src='assets/images/starship.webp' alt='STSHIP' className='h-[40rem] max-w-[45rem] object-cover' />
+      <div className='absolute right-0 z-[-1] '>
+        <div className="absolute right-0 top-0 radial_frame h-full w-full "></div>
+        <img src='assets/images/starship.webp' alt='STSHIP' className='h-[40rem] w-full max-w-[45rem] object-cover' />
       </div>
       
     </div>
