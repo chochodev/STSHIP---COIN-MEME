@@ -34,7 +34,7 @@ const HowToBuy = () => {
               <img src={item.image} alt={item.name} className={`${item.image_style} h-[16.75rem] w-full object-cover rounded-tl-[8px] rounded-tr-[8px]`} />
               <p className="text-[1.25rem] text-center font-semibold font-inter text-secondary-dark bg-[#BEF4C3] w-max px-[1.5rem] py-[.875rem] rounded-[8px] transform translate-y-[-1rem]">{item.text}</p>
             </div>
-            <a href={item.link} target="_blank" className='text-secondary text-[1.15rem] md:text-[1.5625rem] font-montserrat font-semibold text-center py-[.875rem] bg-secondary-dark hover:text-secondary-light hover:border-secondary-light active:border-[#ffffff] rounded-[8px] border-solid border-secondary-dim border-[1px] transition-all duration-200 ease-in-out'>BUY NOW</a>
+            <a href={item.link} target="_blank" rel="noopener noreferrer" className='text-secondary text-[1.15rem] md:text-[1.5625rem] font-montserrat font-semibold text-center py-[.875rem] bg-secondary-dark hover:text-secondary-light hover:border-secondary-light active:border-[#ffffff] rounded-[8px] border-solid border-secondary-dim border-[1px] transition-all duration-200 ease-in-out'>BUY NOW</a>
           </div>
         ))}
         
