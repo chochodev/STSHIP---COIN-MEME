@@ -3,12 +3,12 @@ import { RiLinkedinFill, RiTelegramFill, RiTwitterFill } from 'react-icons/ri';
 import { Link } from 'react-scroll';
 
 const Hero = () => {
-  const button_style = 'font-montserrat font-[600] h-[3.5rem] text-[1.05rem] xl:text-[1.25rem] px-[3.5rem] items-center flex text-center text-[#ffffff] rounded-[8px] transition-all ease-in-out duration-200';
+  const button_style = 'font-montserrat font-[600] h-[2.25rem] sm:h-[3rem] lg:h-[3.5rem] text-[.65rem] sm:text-[1.05rem] xl:text-[1.25rem] px-[1.75rem] sm:px-[2rem] md:px-[2.75rem] lg:px-[3.5rem] items-center flex text-center text-[#ffffff] rounded-[8px] transition-all ease-in-out duration-200';
   return (
     <div className='relative flex w-full'>
-      <div className="flex flex-col p-[3.75rem] gap-[2.75rem] w-full">
-        <h1 className="text-[4.0625rem] font-montserrat font-[500] max-w-[45rem]  ">Explore top Crypto and SpaceX with <br/> $STSHIP</h1>
-        <div className="flex gap-[2rem] ">
+      <div className="flex flex-col py-[3.75rem] gap-[2.75rem] w-full">
+        <h1 className="text-[2.75rem] text-center sm:text-left sm:text-[3.5rem] lg:text-[4.0625rem] font-montserrat font-[500] max-w-[45rem]  ">Explore top Crypto and SpaceX with <br/> $STSHIP</h1>
+        <div className="flex justify-evenly sm:justify-start sm:gap-[2rem] ">
           <Link 
             to='' 
             smooth={true} 
@@ -44,7 +44,7 @@ const Hero = () => {
       </div>
       <div className='absolute right-0 z-[-1] '>
         <div className="absolute right-0 top-0 radial_frame h-full w-full "></div>
-        <img src='assets/images/starship.webp' alt='STSHIP' className='h-[40rem] w-full max-w-[45rem] object-cover' />
+        <img src='assets/images/starship.webp' alt='STSHIP' className='h-[40rem] w-full  max-w-[45rem] object-cover' />
       </div>
       
     </div>

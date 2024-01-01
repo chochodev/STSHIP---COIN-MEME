@@ -12,15 +12,18 @@ import QA from './s9_q&a';
 const Home = () => {
   return (
     <>
-    <Hero />
-    <HowToBuy />
-    <Charts />
-    <Tokenomic />
-    <Update />
-    <Video />
-    <Partnership />
-    <Roadmap />
-    <QA />
+    <div className='px-[.65rem] sm:px-[1rem] md:px-[2.5rem] xl:px-[3.75rem]'>
+      <Hero />
+      <HowToBuy />
+      <Charts />
+      <Tokenomic />
+      <Update />
+      <Video />
+      <Partnership />
+      <Roadmap />
+      <QA />
+    </div>
+    
     </>
   )
 }
