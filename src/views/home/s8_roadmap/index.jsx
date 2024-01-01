@@ -1,30 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Roadmap = () => {
-  const items = [
-    {
-      image: 'assets/images/proof_01.jpg',
-      title: 'Exciting Update for the $STSHIP Communinty',
-      text_1: 'We’re thrilled to announce a significant milestone: The ownership of our contract has been officially transferred to a dead wallet, fulfuling our promise. ',
-      text_2: 'Stay tuned for more updates as we collectively shape the future of $STSHIP!',
-      extra_style: 'flex-col-reverse lg:flex-row',
-    },
-  ]
+  const [showRoadmap, setShowRoadmap] = useState(false);
+
   return (
     <div className='w-full flex flex-col gap-[3rem] lg:pt-[5rem] pb-[10rem] '>
       <h1 className="text-[1.25rem] text-[#ffffff] font-semibold font-montserrat tracking-[15%] w-full text-center ">ROADMAP</h1>
-      <div className="flex flex-col gap-[8rem] lg:gap-[15rem] ">
-        {items.map((item, index) => (
-          <div className={`${item.extra_style} flex justify-evenly gap-y-[3rem] w-full`} key={index}>
-            <img src={item.image} alt='PROOF' className='w-full lg:w-[48%] h-[34rem] xl:h-[37.8125rem] my-auto rounded-[20px] object-cover' />
-            <div className='flex flex-col gap-[2rem] w-full lg:w-[45%] h-full '>
-              <h3 className='text-[1.5rem] lg:text-[1.875rem] xl:text-[2.1875rem] uppercase text-secondary font-montserrat font-semibold '>{item.title}</h3>
-              <p className='text-[1.375rem] lg:text-[1.625rem] xl:text-[1.875rem] font-inter leading-[1.25]'>{item.text_1}<br/><br/>{item.text_2}</p>
-            </div>
-          </div>
-        ))}
+      <div className='flex flex-col gap-[1rem]'>
+        <h2 className='text-[1.15rem] md:text-[1.375rem] font-semibold'>$STSHIP 2024 Roadmap Highlights</h2>
+        <ol className='flex flex-col gap-[.5rem]'>
+          <li className="text-[1.05rem]">2024 Goals Unleashed</li>
+          <li className="text-[1.05rem]">2024 Goals Unleashed</li>
+          <li className="text-[1.05rem]">2024 Goals Unleashed</li>
+          <li className="text-[1.05rem]">2024 Goals Unleashed</li>
+        </ol>
+
+        <p className="text">Experience our vision for 2024, including ambitious goals, a sleek PWA upgrade, expansion to Ethereum (ETH) and Avalanche (AVAX), and exciting milestones in DeFi and NFTs. Stay tuned for more surprises!</p>
       </div>
-      
+      <button className="text-[1.25rem] text-[#ffffff] h-[2.5rem] w-full max-w-[12rem] mx-auto bg-tertiary rounded-[8px] hover:bg-background transition-all duration-200 ease-in-out " onClick={()=>setShowRoadmap(true)}>See more</button>
+
+      <div className={`${showRoadmap? 'opacity-1 select-auto transform translate-x-0 z-[-50]': 'opacity-0 select-none transform translate-x-[2rem] z-[100]'} fixed top-0 left-0 flex justify-center p-[3vw] w-full h-screen`}>
+        <div className='fixed top-0 left-0 z-[100] h-full w-full bg-background/20' onClick={()=>setShowRoadmap(false)}></div>
+        <img src="assets/images/roadmap.jpg" alt="ROADMAP" className='relative z-[101] h-[90vw] max-h-[60rem] w-full object-contain' />
+      </div>
     </div>
   )
 }

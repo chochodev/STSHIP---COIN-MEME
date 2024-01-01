@@ -3,17 +3,17 @@ import { RiLinkedinFill, RiTelegramFill, RiTwitterFill } from 'react-icons/ri';
 
 const Footer = () => {
   return (
-    <div className='flex justify-evenly w-full'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 justify-center gap-x-[5%] gap-y-[3rem] w-full px-[10%] sm:px-[1rem] md:px-[2.5rem] xl:px-[3.75rem] py-[1rem]'>
       <div className='flex flex-col gap-[2rem]'>
-        <div className='flex gap-[1rem] md:gap-[1.5625rem] justify-center '>
-            <h2 className='text-[1.5rem] md:text-[2.1875rem] font-montserrat font-[800] select-none '>$tarship</h2>
-            <img className='h-[2.5rem] w-[2.5rem] md:h-[4.0625rem] md:w-[4.0625rem] object-fit ' src='assets/images/logo.svg' alt='LOGO' />
+        <div className='flex gap-[.5rem] lg:gap-[1.5625rem] '>
+            <h2 className='text-[1.5rem] lg:text-[2.1875rem] font-montserrat font-[800] select-none '>$tarship</h2>
+            <img className='h-[2.25rem] w-[2.25rem] lg:h-[3rem] lg:w-[3rem] object-fit ' src='assets/images/logo.svg' alt='LOGO' />
         </div>
         <div className="flex">
           <p className='text-[1.375rem] lg:text-[1.625rem] xl:text-[1.875rem] font-inter leading-[1.25]'>Embark on a Memorable Crypto Adventure.</p>
         </div>
       </div>
-      <div className="flex flex-col gap-[1rem]">
+      <div className="flex flex-col gap-[.5rem]">
         <h2 className="text-[1.5rem] font-semibold">Quick links</h2>
         <div className="flex flex-col gap-[.5rem]">
           <a href="#" target="_blank" rel="noopener noreferrer" className='text-[1.15rem] font-[600] text-primary hover:text-tertiary active:text-secondary transition-all duration-200 ease-in-out'>Privacy Policy</a>
@@ -21,9 +21,9 @@ const Footer = () => {
           <a href="#" target="_blank" rel="noopener noreferrer" className='text-[1.15rem] font-[600] text-primary hover:text-tertiary active:text-secondary transition-all duration-200 ease-in-out'>Partnership</a>
         </div>
       </div>
-      <div className="flex flex-col gap-[1rem]">
+      <div className="flex flex-col gap-[.5rem]">
         <h2 className="text-[1.5rem] font-semibold">Contact Us</h2>
-        <div className="flex justify-center text-center items-center gap-[.5rem] w-full ">
+        <div className="flex items-center gap-[.5rem] w-full ">
           <a href="#" className='h-[2rem] border-r-[2px]'>
             <RiLinkedinFill className='text-[1.25rem] text-primary hover:text-tertiary active:text-secondary transition-all duration-200 ease-in-out' />
           </a>
@@ -37,8 +37,9 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="flex flex-col gap-[1rem]">
-        <h2 className="text-[1.5rem] font-semibold">Newsletter</h2>
+      <div className="flex flex-col gap-[.5rem]">
+        <h2 className="text-[1.5rem] font-semibold">Email Us</h2>
+        <p className="text-[.875rem] text-tertiary font-inter">loremstship@yahoo.com</p>
       </div>
     </div>
   )
