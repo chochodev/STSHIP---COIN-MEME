@@ -22,20 +22,20 @@ const QA = () => {
       <h1 className="text-[1.25rem] text-[#ffffff] font-semibold font-montserrat tracking-[15%] w-full text-center ">COMMON QUESTIONS</h1>
       <div className='flex flex-col gap-[1rem] w-full'> 
         <QACard 
-          question={'Lorem, ipsum dolor sit amet consectetur adipisicing elit.o illo?'} 
-          answer={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti quasi provident quos at ut voluptatem sunt obcaecati numquam consectetur? Corporis architecto cumque sapiente nemo illo?'} 
+          question={'How can I buy $STSHIP tokens?'} 
+          answer={'You can purchase $STSHIP tokens on platforms like Raydium, Jupiter, and Birdaye. Simply follow the links provided in the "How to Buy" section on our website.'} 
         />
         <QACard 
-          question={'Lorem, ipsum dolor sit amet consectetur adipisicing elit.o illo?'} 
-          answer={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti quasi provident quos at ut voluptatem sunt obcaecati numquam consectetur? Corporis architecto cumque sapiente nemo illo?'} 
+          question={' What is the total supply of $STSHIP tokens?'} 
+          answer={'The total supply of $STSHIP tokens is same as the burned tokens totalling at 120 billion.'} 
         />
         <QACard 
-          question={'Lorem, ipsum dolor sit amet consectetur adipisicing elit.o illo?'} 
-          answer={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti quasi provident quos at ut voluptatem sunt obcaecati numquam consectetur? Corporis architecto cumque sapiente nemo illo?'} 
+          question={'How often is the website updated with new information?'} 
+          answer={' We strive to keep our website regularly updated with the latest information, especially regarding tokenomics, partnerships, roadmap, and how to buy.'} 
         />
         <QACard 
-          question={'Lorem, ipsum dolor sit amet consectetur adipisicing elit.o illo?'} 
-          answer={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti quasi provident quos at ut voluptatem sunt obcaecati numquam consectetur? Corporis architecto cumque sapiente nemo illo?'} 
+          question={'How can I get involved in community rewards and contests?'} 
+          answer={'Keep an eye on our announcements and social media channels for information on upcoming community rewards, contests, and ventures. Participation details will be shared in advance.'} 
         />
       </div>
     </div>
