@@ -4,7 +4,7 @@ const Roadmap = () => {
   const [showRoadmap, setShowRoadmap] = useState(false);
 
   return (
-    <div className='w-full flex flex-col gap-[3rem] lg:pt-[5rem] pb-[10rem] '>
+    <div id='roadmap' className='w-full flex flex-col gap-[3rem] lg:pt-[5rem] pb-[10rem] '>
       <h1 className="text-[1.25rem] text-[#ffffff] font-semibold font-montserrat tracking-[15%] w-full text-center ">ROADMAP</h1>
       <div className='flex flex-col gap-[1rem] w-[90%] max-w-[50rem] mx-auto'>
         <h2 className='text-[1.15rem] md:text-[1.375rem] mx-auto font-semibold'>$STSHIP 2024 Roadmap Highlights</h2>

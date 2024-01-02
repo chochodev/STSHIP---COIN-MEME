@@ -26,7 +26,7 @@ const Update = () => {
     }
   ]
   return (
-    <div className='w-full flex flex-col gap-[3rem] lg:pt-[5rem] pb-[10rem] '>
+    <div id='updates' className='w-full flex flex-col gap-[3rem] lg:pt-[5rem] pb-[10rem] '>
       <h1 className="text-[1.25rem] text-[#ffffff] font-semibold font-montserrat tracking-[15%] w-full text-center ">RECENT UPDATES</h1>
       <div className="flex flex-col gap-[8rem] lg:gap-[15rem] ">
         {items.map((item, index) => (

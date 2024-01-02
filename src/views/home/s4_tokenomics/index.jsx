@@ -6,7 +6,7 @@ import { BsFire, BsFillDatabaseFill } from "react-icons/bs";
 const Tokenomic = () => {
   const common_style = 'flex flex-col gap-[1rem] w-[90%] md:w-[45%] pr-0 p-[1.5rem] md:pr-[1.5] lg:p-[3rem] pl-[5%] lg:pl-[8%] border-solid border-0 md:border-[1px] border-secondary';
   return (
-    <div className='w-full flex flex-col gap-[3rem] pb-[10rem] '>
+    <div id='tokenomics' className='w-full flex flex-col gap-[3rem] pb-[10rem] '>
       <h1 className="text-[1.25rem] text-[#ffffff] font-semibold font-montserrat tracking-[15%] w-full text-center ">TOKENOMICS INFO</h1>
       <div className="flex flex-wrap justify-center w-full">
         <div className={`${common_style} md:border-l-0 md:border-t-0`}>
