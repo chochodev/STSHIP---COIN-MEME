@@ -3,15 +3,15 @@ import React from 'react'
 const Partnership = () => {
   const items = [
     {
-      image: 'assets/images/proof_01.jpg',
-      title: 'Exciting Update for the $STSHIP Communinty',
-      text_1: 'We’re thrilled to announce a significant milestone: The ownership of our contract has been officially transferred to a dead wallet, fulfuling our promise. ',
-      text_2: 'Stay tuned for more updates as we collectively shape the future of $STSHIP!',
+      image: 'assets/images/partnership.jpg',
+      title: 'Elevate Yourself with $STSHIP Partnership!',
+      text_1: 'Our innovative roadmap promises exciting ventures, such as PWA site upgrades, network expansions, and milestones in DeFi and NFTs.',
+      text_2: 'Join $STSHIP for a collaboration that goes beyond the ordinary, where innovation meets community spirit, and together we soar to new heights.',
       extra_style: 'flex-col-reverse lg:flex-row',
     },
   ]
   return (
-    <div className='w-full flex flex-col gap-[3rem] lg:pt-[5rem] pb-[10rem] '>
+    <div id='partnership' className='w-full flex flex-col gap-[3rem] lg:pt-[5rem] pb-[10rem] '>
       <h1 className="text-[1.25rem] text-[#ffffff] font-semibold font-montserrat tracking-[15%] w-full text-center ">PARTNERSHIP ANNOUNCEMENT</h1>
       <div className="flex flex-col gap-[8rem] lg:gap-[15rem] ">
         {items.map((item, index) => (
