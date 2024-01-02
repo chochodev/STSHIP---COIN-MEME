@@ -16,9 +16,9 @@ const Footer = () => {
       <div className="flex flex-col gap-[.5rem]">
         <h2 className="text-[1.5rem] font-semibold">Quick links</h2>
         <div className="flex flex-col gap-[.5rem]">
-          <a href="#" target="_blank" rel="noopener noreferrer" className='text-[1.15rem] font-[600] text-primary hover:text-tertiary active:text-secondary transition-all duration-200 ease-in-out'>Privacy Policy</a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className='text-[1.15rem] font-[600] text-primary hover:text-tertiary active:text-secondary transition-all duration-200 ease-in-out'>Follow Us</a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className='text-[1.15rem] font-[600] text-primary hover:text-tertiary active:text-secondary transition-all duration-200 ease-in-out'>Partnership</a>
+          <a href="#updates" target="_blank" rel="noopener noreferrer" className='text-[1.15rem] font-[600] text-primary hover:text-tertiary active:text-secondary transition-all duration-200 ease-in-out'>Updates</a>
+          <a href="#home" target="_blank" rel="noopener noreferrer" className='text-[1.15rem] font-[600] text-primary hover:text-tertiary active:text-secondary transition-all duration-200 ease-in-out'>Follow Us</a>
+          <a href="#partnership" target="_blank" rel="noopener noreferrer" className='text-[1.15rem] font-[600] text-primary hover:text-tertiary active:text-secondary transition-all duration-200 ease-in-out'>Partnership</a>
         </div>
       </div>
       <div className="flex flex-col gap-[.5rem]">
