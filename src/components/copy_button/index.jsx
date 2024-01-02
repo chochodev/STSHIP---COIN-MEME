@@ -16,8 +16,8 @@ const CopyToClipboardButton = ({ text }) => {
   };
 
   return (
-    <button onClick={handleCopyClick}>
-      {isCopied ? <RiFileCopy2Line className='text-tertiary2 text-[2rem]' /> : <RiCheckFill className='text-secondary text-[2rem]' />}
+    <button onClick={handleCopyClick} className='bg-tertiary2/10 rounded-tr-[8px] rounded-br-[8px] p-[.5rem]'>
+      {!isCopied ? <RiFileCopy2Line className='text-tertiary2 text-[1.25rem]' /> : <RiCheckFill className='text-secondary text-[1.25rem]' />}
     </button>
   );
 };
