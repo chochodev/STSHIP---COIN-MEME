@@ -20,7 +20,7 @@ const Navbar = () => {
           <Link to='partnership' smooth={true} spy={false} duration={500} className={navlink_style} >Partnership</Link>
         </div>
         <div className="hidden lg:flex h-[4.1875rem] items-center">
-          <a href="#" className="font-montserrat font-[700] h-[3.5rem] text-[1.05rem] xl:text-[1.25rem] px-[1.5rem] items-center flex text-center text-[#ffffff] bg-[#545454] rounded-[8px] hover:bg-secondary-light hover:text-secondary-dark transition-all ease-in-out duration-200" id="">Get Started</a>
+          <a href="#howtobuy" className="font-montserrat font-[700] h-[3.5rem] text-[1.05rem] xl:text-[1.25rem] px-[1.5rem] items-center flex text-center text-[#ffffff] bg-[#545454] rounded-[8px] hover:bg-secondary-light hover:text-secondary-dark transition-all ease-in-out duration-200" id="">Get Started</a>
         </div>
         <button onClick={()=>setOpenSmallNav(!openSmallNav)} className='lg:hidden'>
           {!openSmallNav? 

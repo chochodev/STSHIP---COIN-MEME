@@ -25,7 +25,7 @@ const HowToBuy = () => {
     }
   ]
   return (
-    <div className='w-full flex flex-col gap-[3rem] '>
+    <div id='howtobuy' className='w-full flex flex-col gap-[3rem] '>
       <h1 className="text-[1.25rem] text-[#ffffff] font-semibold font-montserrat tracking-[15%] w-full text-center ">HOW TO BUY</h1>
       <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly gap-y-[4rem] items-center w-full">
         {items.map((item, index) => (

@@ -48,7 +48,7 @@ const Update = () => {
         </div>
         <div className='flex justify-between items-center gap-[3.5rem] itemsw-full'>
           <p className='text-tertiary2 text-[.875rem] md:text-[1.25rem] select-none'>Solana profile:</p>
-          <a href="#" target="_blank" rel="noopener noreferrer" className='text-[1.15rem] md:text-[1.5rem] text-[#ffffff] hover:text-secondary active:text-secondary-dark transition-all duration-200 ease-in-out'>StarShip_Profile</a>
+          <a href="https://solscan.io/token/GHtLF7drbYXGTHX73uSxqPKkJUzDqcBNe2M9fzjJzr3j" target="_blank" rel="noopener noreferrer" className='text-[1.15rem] md:text-[1.5rem] text-[#ffffff] hover:text-secondary active:text-secondary-dark transition-all duration-200 ease-in-out'>StarShip_Profile</a>
         </div>
         <p className='text-tertiary2 text-[.875rem] md:text-[1.25rem] select-none'>Copy contract below:</p>
         <div className='flex items-center gap-[.5rem] w-max mx-auto pl-[.5rem] rounded-[8px] bg-tertiary2/10'>

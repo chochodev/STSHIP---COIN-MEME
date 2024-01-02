@@ -29,7 +29,7 @@ const Hero = () => {
           </Link>
         </div>
         <div className="flex justify-end text-center items-center gap-[.5rem] w-full pt-[4rem] ">
-          <a href="#" className='h-[2rem] border-r-[2px]'>
+          <a href="https://twitter.com/StarShip_Sol" className='h-[2rem] border-r-[2px]'>
             <RiLinkedinFill className='text-[1.25rem] text-tertiary2' />
           </a>
           <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p>
