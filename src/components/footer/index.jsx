@@ -24,15 +24,15 @@ const Footer = () => {
       <div className="flex flex-col gap-[.5rem]">
         <h2 className="text-[1.5rem] font-semibold">Contact Us</h2>
         <div className="flex items-center gap-[.5rem] w-full ">
-          <a href="#" className='h-[2rem] border-r-[2px]'>
+          <a href="#home" className='h-[2rem] border-r-[2px]'>
             <RiLinkedinFill className='text-[1.25rem] text-primary hover:text-tertiary active:text-secondary transition-all duration-200 ease-in-out' />
           </a>
           <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p>
-          <a href="#" className='h-[2rem] border-r-[2px]'>
+          <a href="#home" className='h-[2rem] border-r-[2px]'>
             <RiTwitterFill className='text-[1.25rem] text-primary hover:text-tertiary active:text-secondary transition-all duration-200 ease-in-out' />
           </a>
           <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p>
-          <a href="#" className='h-[2rem]'>
+          <a href="#home" className='h-[2rem]'>
             <RiTelegramFill className='text-[1.25rem] text-primary hover:text-tertiary active:text-secondary transition-all duration-200 ease-in-out' />
           </a>
         </div>
