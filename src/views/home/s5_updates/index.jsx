@@ -52,7 +52,7 @@ const Update = () => {
         </div>
         <p className='text-tertiary2 text-[.875rem] md:text-[1.25rem] select-none'>Copy contract below:</p>
         <div className='flex items-center gap-[.5rem] w-max mx-auto pl-[.5rem] rounded-[8px] bg-tertiary2/10'>
-          <p className='text-[1.05rem] text-secondary'>GHtLF7drbYXGTHX73uSxqPKkJUzDqcBNe2M9fzjJzr3j</p>
+          <p className='text-[.875rem] lg:text-[1.05rem] max-w-[11rem] text-secondary truncate'>GHtLF7drbYXGTHX73uSxqPKkJUzDqcBNe2M9fzjJzr3j</p>
           <CopyToClipboardButton text='GHtLF7drbYXGTHX73uSxqPKkJUzDqcBNe2M9fzjJzr3j' />
         </div>
       </div>
