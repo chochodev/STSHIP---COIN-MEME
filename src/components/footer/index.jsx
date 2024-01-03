@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
       <div className="flex flex-col gap-[.5rem]">
         <h2 className="text-[1.5rem] font-semibold">Email Us</h2>
-        <p className="text-[.875rem] text-tertiary font-inter">loremstship@yahoo.com</p>
+        <p className="text-[.875rem] text-tertiary font-inter">michochoprogrammer@gmail.com</p>
       </div>
     </div>
   )
