@@ -15,7 +15,7 @@ function App() {
       <Home />
       <Footer />
     </div>
-    <div className={`${isDisclaimer? 'transform translate-y-0 delay-500 opacity-1' : 'transform translate-y-[3rem] opacity-0'} fixed top-0 left-0 z-[200] flex justify-center w-full h-full transition duration-200 ease-in-out`}>
+    <div>
       <Disclaimer />
     </div>
     </>
