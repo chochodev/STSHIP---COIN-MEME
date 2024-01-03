@@ -30,15 +30,31 @@ const Hero = () => {
         </div>
         <div className="flex justify-end text-center items-center gap-[.5rem] w-full pt-[4rem] ">
           <a href="https://twitter.com/StarShip_Sol" className='h-[2rem] border-r-[2px]'>
-            <RiLinkedinFill className='text-[1.25rem] text-tertiary2' />
-          </a>
-          <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p>
-          <a href="https://twitter.com/StarShip_Sol" className='h-[2rem] border-r-[2px]'>
             <RiTwitterFill className='text-[1.25rem] text-tertiary2' />
           </a>
           <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p>
           <a href="https://t.me/StarShip_sol" className='h-[2rem]'>
-            <RiTelegramFill className='text-[1.25rem] text-tertiary2' />
+            <RiTelegramFill className='text-[1.4rem] text-tertiary2' />
+          </a>
+          <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p>
+          <a href="" className='h-[2rem] overflow-hidden'>
+            <img src='assets/images/coin_gecko.png' alt='COIN-GECKO' className='h-[1.375rem] w-[1.375rem] rounded-[20rem] object-contain' />
+          </a>
+          <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p>
+          <a href="" className='h-[2rem] overflow-hidden'>
+            <img src='assets/images/dextool.png' alt='DEXTOOL' className='h-[1.375rem] w-[1.375rem] rounded-[20rem] object-contain' />
+          </a>
+          <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p>
+          <a href="" className='h-[2rem] overflow-hidden'>
+            <img src='assets/images/gecko_terminal.png' alt='GECKO-TERMINAL' className='h-[1.375rem] w-[1.375rem] rounded-[20rem] object-contain' />
+          </a>
+          <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p>
+          <a href="" className='h-[2rem] overflow-hidden'>
+            <img src='assets/images/dexscreener.png' alt='DEXSCREENER' className='h-[1.375rem] w-[1.375rem] rounded-[20rem] object-contain' />
+          </a>
+          <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p>
+          <a href="" className='h-[2rem] overflow-hidden'>
+            <img src='assets/images/birdeye_chart.png' alt='BIRDEYE' className='h-[1.375rem] w-[1.375rem] rounded-[20rem] object-contain' />
           </a>
         </div>
       </div>
