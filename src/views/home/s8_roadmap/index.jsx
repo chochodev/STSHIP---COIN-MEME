@@ -16,7 +16,7 @@ const Roadmap = () => {
         <ol className='flex flex-col gap-[.5rem] mx-auto text-[#ffffff]'>
           <li className="text-[1.05rem]">1. 2024 Goals Unleashed.</li>
           <li className="text-[1.05rem]">2. PWA Site Upgrade.</li>
-          <li className="text-[1.05rem]">3. ETH & AVAX Expansion</li>
+          <li className="text-[1.05rem]">3. ETH & AVAX Expansion.</li>
           <li className="text-[1.05rem]">4. DeFi & NFT Milestones</li>
         </ol>
 
