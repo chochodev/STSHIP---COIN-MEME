@@ -15,7 +15,7 @@ const Home = () => {
     <div className='px-[.65rem] sm:px-[1rem] md:px-[2.5rem] xl:px-[3.75rem]'>
       <Hero />
       <HowToBuy />
-      <Charts />
+      {/* <Charts /> */}
       <Tokenomic />
       <Update />
       <Video />
