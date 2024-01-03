@@ -7,7 +7,7 @@ import Home from 'views/home';
 function App() {
   return (
     <>
-    <div className={`${isDisclaimer? 'overflow-hidden' : 'overflow-auto'}`}>
+    <div>
       <Navbar />
       <Home />
       <Footer />
