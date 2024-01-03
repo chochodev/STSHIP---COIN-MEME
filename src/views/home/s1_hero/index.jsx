@@ -1,5 +1,5 @@
 import React from 'react';
-import { RiLinkedinFill, RiTelegramFill, RiTwitterFill } from 'react-icons/ri';
+import { RiTelegramFill, RiTwitterFill } from 'react-icons/ri';
 import { Link } from 'react-scroll';
 
 const Hero = () => {
@@ -37,23 +37,23 @@ const Hero = () => {
             <RiTelegramFill className='text-[1.4rem] text-tertiary2' />
           </a>
           <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p>
-          <a href="" className='h-[2rem] overflow-hidden'>
+          <a href="https://www.coingecko.com/en/coins/starship-4" className='h-[2rem] overflow-hidden'>
             <img src='assets/images/coin_gecko.png' alt='COIN-GECKO' className='h-[1.375rem] w-[1.375rem] rounded-[20rem] object-contain' />
           </a>
           <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p>
-          <a href="" className='h-[2rem] overflow-hidden'>
+          <a href="https://www.dextools.io/app/en/solana/pair-explorer/AtNmDy6pkhQeeD72j5cRa7cy7MoFs759XRre3tA7uDpJ" className='h-[2rem] overflow-hidden'>
             <img src='assets/images/dextool.png' alt='DEXTOOL' className='h-[1.375rem] w-[1.375rem] rounded-[20rem] object-contain' />
           </a>
           <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p>
-          <a href="" className='h-[2rem] overflow-hidden'>
+          <a href="https://www.geckoterminal.com/solana/pools/AtNmDy6pkhQeeD72j5cRa7cy7MoFs759XRre3tA7uDpJ" className='h-[2rem] overflow-hidden'>
             <img src='assets/images/gecko_terminal.png' alt='GECKO-TERMINAL' className='h-[1.375rem] w-[1.375rem] rounded-[20rem] object-contain' />
           </a>
           <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p>
-          <a href="" className='h-[2rem] overflow-hidden'>
+          <a href="https://www.dextools.io/widget-chart/en/solana/pe-light/AtNmDy6pkhQeeD72j5cRa7cy7MoFs759XRre3tA7uDpJ?theme=light&chartType=2&chartResolution=30&drawingToolbars=false" className='h-[2rem] overflow-hidden'>
             <img src='assets/images/dexscreener.png' alt='DEXSCREENER' className='h-[1.375rem] w-[1.375rem] rounded-[20rem] object-contain' />
           </a>
           <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p>
-          <a href="" className='h-[2rem] overflow-hidden'>
+          <a href="https://birdeye.so/token/GHtLF7drbYXGTHX73uSxqPKkJUzDqcBNe2M9fzjJzr3j?chain=solana" className='h-[2rem] overflow-hidden'>
             <img src='assets/images/birdeye_chart.png' alt='BIRDEYE' className='h-[1.375rem] w-[1.375rem] rounded-[20rem] object-contain' />
           </a>
         </div>

@@ -37,7 +37,7 @@ const QA = () => {
           question={'How can I get involved in community rewards and contests?'} 
           answer={'Keep an eye on our announcements and social media channels for information on upcoming community rewards, contests, and ventures. Participation details will be shared in advance.'} 
         />
-        <a href="https://twitter.com/StarShip_Sol/status/1736638321101582399" target='_blank' className='w-[90%] max-w-[30rem] mx-auto p-[.5rem] bg-secondary/20 active:bg-secondary/30 hover:bg-tertiary2/30 text-secondary text-center rounded-[5px] transition-all duration-200 ease-in-out'>For more questions: goto the official Q&A page.</a>
+        <a href="https://twitter.com/StarShip_Sol/status/1736638321101582399" rel="noreferrer" target='_blank' className='w-[90%] max-w-[30rem] mx-auto p-[.5rem] bg-secondary/20 active:bg-secondary/30 hover:bg-tertiary2/30 text-secondary text-center rounded-[5px] transition-all duration-200 ease-in-out'>For more questions: goto the official Q&A page.</a>
       </div>
     </div>
   )
