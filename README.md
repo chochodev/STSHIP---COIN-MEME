@@ -1,6 +1,6 @@
 # STSHIP - SOLANA
 
-This
+This is just a landing page of a trading website ($STSHIP) based on a StarSHIP coin aimed to give people insights to space exploration
 ## Available Scripts
 
 In the project directory, you can run:
