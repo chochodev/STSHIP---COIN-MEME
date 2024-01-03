@@ -1,6 +1,6 @@
 # STSHIP - SOLANA
 
-This is just a landing page of a trading website ($STSHIP) based on a StarSHIP coin aimed to give people insights to space exploration
+This is just a landing page of a trading website ($STSHIP) based on a StarSHIP coin aimed to give people insights to space exploration.
 
 
 ## Available Scripts
@@ -20,4 +20,4 @@ You may also see any lint errors in the console.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## email: michochoprogrammer@gmail.com
+## email: michochoprogrammer@gmail.com 
