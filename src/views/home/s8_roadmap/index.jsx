@@ -19,11 +19,11 @@ const Roadmap = () => {
       </div>
       <button className="text-[1.25rem] text-[#ffffff] h-[2.5rem] w-full max-w-[12rem] mx-auto bg-tertiary rounded-[8px] hover:text-[#ffc8c5] active:text-[#4b0804] shadow-[2px_4px_25px_10px_rgba(255,108,100,0.25)] transition-all duration-200 ease-in-out " onClick={()=>setShowRoadmap(true)}>See more</button>
 
-      <div className={`${showRoadmap? 'opacity-1 select-auto transform translate-x-0 z-[100] bg-background/80': 'opacity-0 select-none transform translate-x-[2rem] z-[-2] bg-[#00000000]'} fixed top-0 left-0 flex justify-center p-[3vw] w-full h-screen transition-all duration-300 ease-in-out`} onClick={()=>setShowRoadmap(false)}>
-        <div className={`${showRoadmap? 'block' : 'hidden'} relative flex justify-center w-full h-full`}>
-          <div className={`${showRoadmap? 'z-[105] block' : 'z-[-2] hidden'} absolute top-0 left-0 h-full w-full bg-background/20`}></div>
-          <img src="assets/images/roadmap.jpg" alt="ROADMAP" className={`${showRoadmap? 'z-[110] block' : 'z-[-2] hidden'} absolute h-[90vw] max-h-[60rem] w-auto object-contain`} />
-        </div>
+      <div className={`${showRoadmap? 'opacity-1 select-auto transform translate-x-0 z-[100] bg-background/80': 'opacity-0 select-none transform translate-x-[2rem] z-[-2] bg-[#00000000]'} fixed top-0 left-0 flex justify-center p-[3vw] w-full h-screen transition-all duration-300 ease-in-out`}>
+        {/* <div className={`${showRoadmap? 'block' : 'hidden'} relative flex justify-center w-full h-full`}> */}
+          <div className={`${showRoadmap? 'z-[105] block' : 'z-[-2] hidden'} absolute top-0 left-0 h-full w-full bg-background/20`} onClick={()=>setShowRoadmap(false)}></div>
+          <img src="assets/images/roadmap.jpg" alt="ROADMAP" className={`${showRoadmap? 'z-[110] block' : 'z-[-2] hidden'} absolute h-full max-h-[60rem] w-auto object-contain`} />
+        {/* </div> */}
       </div>
     </div>
   )
