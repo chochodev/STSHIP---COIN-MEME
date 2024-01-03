@@ -17,7 +17,7 @@ const Disclaimer = () => {
   };
 
   return (
-    <div className={`${isModalOpen? 'transform translate-y-0 delay-500 opacity-1' : 'transform translate-y-[3rem] opacity-0'} fixed top-0 left-0 z-[200] flex flex-col justify-start w-full h-full bg-[#000000]/40 overflow-auto transition duration-200 ease-in-out`}>
+    <div className={`${isModalOpen? 'transform translate-y-0 delay-500 opacity-1 z-[200]' : 'transform translate-y-[3rem] opacity-0 z-[-5]'} fixed top-0 left-0 flex flex-col justify-start w-full h-full bg-[#000000]/40 overflow-auto transition duration-200 ease-in-out`}>
       <div className="flex justify-end p-[1rem] h-[20%] min-h-[5rem] w-full" onClick={handleCloseModal}>
         <RiCloseLine className='text-[2rem] text-[#ffffff]'/>
       </div>
