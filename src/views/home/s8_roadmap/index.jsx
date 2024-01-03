@@ -17,7 +17,7 @@ const Roadmap = () => {
           <li className="text-[1.05rem]">1. 2024 Goals Unleashed.</li>
           <li className="text-[1.05rem]">2. PWA Site Upgrade.</li>
           <li className="text-[1.05rem]">3. ETH & AVAX Expansion.</li>
-          <li className="text-[1.05rem]">4. DeFi & NFT Milestones</li>
+          <li className="text-[1.05rem]">4. DeFi & NFT Milestones.</li>
         </ol>
 
         <p className="text-center">Experience our vision for 2024, including ambitious goals, a sleek PWA upgrade, expansion to Ethereum (ETH) and Avalanche (AVAX), and exciting milestones in DeFi and NFTs. Stay tuned for more surprises!</p>
