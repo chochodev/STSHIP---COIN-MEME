@@ -4,6 +4,7 @@ import HowToBuy from './s2_howtobuy';
 // import Charts from './s3_trackingcharts';
 import Tokenomic from './s4_tokenomics';
 import Update from './s5_updates';
+import Latest from './lateststweet';
 import Video from './s6_videos';
 import Partnership from './s7_partnership';
 import Roadmap from './s8_roadmap';
@@ -18,6 +19,7 @@ const Home = () => {
       {/* <Charts /> */}
       <Tokenomic />
       <Update />
+      <Latest />
       <Video />
       <Partnership />
       <Roadmap />
