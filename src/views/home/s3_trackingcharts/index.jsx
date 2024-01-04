@@ -41,6 +41,6 @@ const Charts = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Charts;
