@@ -29,7 +29,7 @@ const Navbar = () => {
           }
         </button>
       </div>
-      <div className={`absolute ${openSmallNav? 'top-[100%] right-[.5rem] opacity-[100%] select-auto z-[50]' : 'top-[200%] right-0 opacity-0 select-none z-0'} lg:hidden flex flex-col justify-center items-center h-max w-[17.5rem] gap-[2.125rem] xl:gap-[2.8125rem] bg-background px-[2rem] py-[3.5rem] shadow-[0_2px_25px_-5px_rgba(100,100,100,0.03)] shadow-tertiary2/50 rounded-[16px] transition-all ease-in-out duration-200 `}>
+      <div className={`absolute ${openSmallNav? 'top-[100%] right-[.5rem] opacity-[100%] select-auto z-[50] visible' : 'top-[200%] right-0 opacity-0 select-none z-[-5] invisible'} lg:hidden flex flex-col justify-center items-center h-max w-[17.5rem] gap-[2.125rem] xl:gap-[2.8125rem] bg-background px-[2rem] py-[3.5rem] shadow-[0_2px_25px_-5px_rgba(100,100,100,0.03)] shadow-tertiary2/50 rounded-[16px] transition-all ease-in-out duration-200 `}>
         <Link to='home' smooth={true} spy={false} duration={500} onClick={()=>setOpenSmallNav(false)} className={navlink_style} >Home</Link>
         <Link to='tokenomics' smooth={true} spy={false} duration={500} onClick={()=>setOpenSmallNav(false)} className={navlink_style} >About Us</Link>
         <Link to='updates' smooth={true} spy={false} duration={500} onClick={()=>setOpenSmallNav(false)} className={navlink_style} >Insights</Link>
