@@ -41,24 +41,24 @@ const HowToBuy = () => {
       </div>
         
       <h1 className="text-[1.25rem] text-[#ffffff] font-semibold font-montserrat tracking-[15%] w-full text-center ">SOLANA TOKEN</h1>
-      <div className='flex flex-col gap-[1rem] p-[1rem] w-[90%] max-w-[80rem] mx-auto bg-background rounded-[8px] border-solid border-[1px] border-secondary'>
-        <div className='flex justify-between items-center gap-[3.5rem] itemsw-full'>
-          <p className='text-tertiary2 text-[.875rem] md:text-[1.25rem] select-none'>Token name:</p>
-          <p className='text-[1.15rem] md:text-[1.5rem]'>StarShip(STSHIP)</p>
+      <div className='flex flex-col gap-[1rem] p-[.5rem] sm:p-[1rem] w-[90%] max-w-[80rem] mx-auto bg-background rounded-[8px] border-solid border-[1px] border-secondary'>
+        <div className='flex justify-between items-center gap-[1rem] md:gap-[3.5rem] '>
+          <p className='text-tertiary2 text-[.75rem] md:text-[1.25rem] select-none'>Token name:</p>
+          <p className='text-[.875rem] sm:text-[1rem] md:text-[1.15rem] md:text-[1.5rem]'>StarShip(STSHIP)</p>
         </div>
-        <div className='flex justify-between items-center gap-[3.5rem] itemsw-full'>
-          <p className='text-tertiary2 text-[.875rem] md:text-[1.25rem] select-none'>Solana profile:</p>
-          <a href="https://solscan.io/token/GHtLF7drbYXGTHX73uSxqPKkJUzDqcBNe2M9fzjJzr3j" target="_blank" rel="noopener noreferrer" className='text-[1.15rem] md:text-[1.5rem] text-[#ffffff] hover:text-secondary active:text-secondary-dark transition-all duration-200 ease-in-out'>StarShip_Profile</a>
+        <div className='flex justify-between items-center gap-[1rem] md:gap-[3.5rem] '>
+          <p className='text-tertiary2 text-[.75rem] md:text-[1.25rem] select-none'>Solana profile:</p>
+          <a href="https://solscan.io/token/GHtLF7drbYXGTHX73uSxqPKkJUzDqcBNe2M9fzjJzr3j" target="_blank" rel="noopener noreferrer" className='text-[.875rem] sm:text-[1rem] md:text-[1.15rem] md:text-[1.5rem] text-[#ffffff] hover:text-secondary active:text-secondary-dark transition-all duration-200 ease-in-out'>StarShip_Profile</a>
         </div>
-        <div className='flex justify-between items-center gap-[3.5rem] itemsw-full'>
-          <p className='text-tertiary2 text-[.875rem] md:text-[1.25rem] select-none'>Liquidity Burned:</p>
-          <p className='text-[1.15rem] md:text-[1.5rem]'>120 billions</p>
+        <div className='flex justify-between items-center gap-[1rem] md:gap-[3.5rem] '>
+          <p className='text-tertiary2 text-[.75rem] md:text-[1.25rem] select-none'>Liquidity Burned:</p>
+          <p className='text-[.875rem] sm:text-[1rem] md:text-[1.15rem] md:text-[1.5rem]'>120 billions</p>
         </div>
-        <div className='flex justify-between items-center gap-[3.5rem] itemsw-full'>
-          <p className='text-tertiary2 text-[.875rem] md:text-[1.25rem] select-none'>Contract reannounced:</p>
-          <p className='text-[1.15rem] md:text-[1.5rem]'>$$</p>
+        <div className='flex justify-between items-center gap-[1rem] md:gap-[3.5rem] '>
+          <p className='text-tertiary2 text-[.75rem] md:text-[1.25rem] select-none'>Contract reannounced:</p>
+          <p className='text-[.875rem] sm:text-[1rem] md:text-[1.15rem] md:text-[1.5rem]'>0% tax</p>
         </div>
-        <p className='text-tertiary2 text-[.875rem] md:text-[1.25rem] select-none'>Copy contract below:</p>
+        <p className='text-tertiary2 text-[.75rem] md:text-[1.25rem] select-none'>Copy contract below:</p>
         <div className='flex items-center gap-[.5rem] w-max mx-auto pl-[.5rem] rounded-[8px] bg-tertiary2/10'>
           <p className='text-[.875rem] lg:text-[1.05rem] max-w-[11rem] md:max-w-max text-secondary truncate'>GHtLF7drbYXGTHX73uSxqPKkJUzDqcBNe2M9fzjJzr3j</p>
           <CopyToClipboardButton text='GHtLF7drbYXGTHX73uSxqPKkJUzDqcBNe2M9fzjJzr3j' />
