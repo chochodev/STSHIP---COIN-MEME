@@ -68,4 +68,4 @@ const HowToBuy = () => {
   );
 }
 
-export default HowToBuy
+export default HowToBuy;
