@@ -1,5 +1,5 @@
 import React from 'react'
-import CopyToClipboardButton from 'components/copy_button'
+import CopyToClipboardButton from 'components/copy_button';
 
 const HowToBuy = () => {
   const items = [
