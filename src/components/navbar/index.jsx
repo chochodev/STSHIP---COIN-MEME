@@ -7,7 +7,7 @@ const Navbar = () => {
 
   const navlink_style = 'text-tertiary2 text-[1rem] xl:text-[1.15rem] py-[.25rem] font-inter rounded-[5px] hover:text-[#ffffff] hover:underline decoration-[#1b7a26] decoration-[2px] underline-offset-[5px] active:text-secondary transition-all duration-200 ease-in-out ';
   return (
-    <div className='relative h-max'>
+    <div className='sticky z-[50] top-0 left-0 h-max bg-background'>
       <div className='flex justify-between px-[1rem] sm:px-[2rem] md:px-[3.75rem] py-[.5rem] '>
         <div className='flex gap-[1rem] md:gap-[1.5625rem] justify-center '>
           <h2 className='text-[1.5rem] md:text-[2.1875rem] font-montserrat font-[800] select-none '>$tarship</h2>

@@ -7,7 +7,7 @@ import Home from 'views/home';
 function App() {
   return (
     <>
-    <div>
+    <div className='relative'>
       <Navbar />
       <Home />
       <Footer />
