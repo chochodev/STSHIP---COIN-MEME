@@ -4,25 +4,25 @@ import CopyToClipboardButton from 'components/copy_button'
 const HowToBuy = () => {
   const items = [
     {
-      image: 'assets/images/radium.jpg',
-      text: 'Buy using Radium',
-      name: 'RADIUM',
+      image: 'assets/images/raydium-logo2.png',
+      text: 'Buy using Raydium',
+      name: 'RAYDIUM',
       image_style: '',
-      link: '#'
+      link: 'https://raydium.io/swap/?inputCurrency=sol&outputCurrency=GHtLF7drbYXGTHX73uSxqPKkJUzDqcBNe2M9fzjJzr3j&fixed=in'
     },
     {
-      image: 'assets/images/jupiter.jpg',
+      image: 'assets/images/jupiter2.jpg',
       text: 'Buy using Jupiter',
       name: 'JUPITER',
       image_style: 'object-left',
-      link: '#'
+      link: 'https://jup.ag/swap/SOL-STSHIP_GHtLF7drbYXGTHX73uSxqPKkJUzDqcBNe2M9fzjJzr3j'
     },
     {
-      image: 'assets/images/birdeye.png',
+      image: 'assets/images/birdeye2.jpg',
       text: 'Buy using Birdeye',
       name: 'BIRDEYE',
       image_style: '',
-      link: '#'
+      link: 'https://birdeye.so/token/GHtLF7drbYXGTHX73uSxqPKkJUzDqcBNe2M9fzjJzr3j?chain=solana'
     }
   ]
   return (
@@ -32,7 +32,7 @@ const HowToBuy = () => {
         {items.map((item, index) => (
           <div className="flex flex-col gap-[1rem] w-[80%] max-w-[25rem] lg:w-[22%] min-w-[18rem]" key={index}>
             <div className="flex flex-col items-center bg-secondary-dark rounded-[8px] border-solid border-secondary-dim border-[1px] ">
-              <img src={item.image} alt={item.name} className={`${item.image_style} h-[16.75rem] w-full object-cover rounded-tl-[8px] rounded-tr-[8px]`} />
+              <img src={item.image} alt={item.name} className={`${item.image_style} h-[18.75rem] w-full object-cover rounded-tl-[8px] rounded-tr-[8px]`} />
               <p className="text-[1.25rem] text-center font-semibold font-inter text-secondary-dark bg-[#BEF4C3] w-max px-[1.5rem] py-[.875rem] rounded-[8px] transform translate-y-[-1rem]">{item.text}</p>
             </div>
             <a href={item.link} target="_blank" rel="noopener noreferrer" className='text-secondary text-[1.15rem] md:text-[1.5625rem] font-montserrat font-semibold text-center py-[.875rem] bg-secondary-dark hover:text-secondary-light hover:border-secondary-light active:border-[#ffffff] rounded-[8px] border-solid border-secondary-dim border-[1px] transition-all duration-200 ease-in-out'>BUY NOW</a>

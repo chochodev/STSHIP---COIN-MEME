@@ -54,7 +54,7 @@ const Hero = () => {
           </a>
           {/* <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p> */}
           <a href="https://birdeye.so/token/GHtLF7drbYXGTHX73uSxqPKkJUzDqcBNe2M9fzjJzr3j?chain=solana" className='h-[3rem] overflow-hidden'>
-            <img src='assets/images/birdeye_chart.png' alt='BIRDEYE' className='h-[1.875rem] md:h-[2.875rem] w-[1.875rem] md:w-[2.875rem] rounded-[20rem] object-contain' />
+            <img src='assets/images/birdeye2.jpg' alt='BIRDEYE' className='h-[1.875rem] md:h-[2.875rem] w-[1.875rem] md:w-[2.875rem] rounded-[20rem] object-contain' />
           </a>
         </div>
       </div>
