@@ -14,7 +14,7 @@ const HowToBuy = () => {
       image: 'assets/images/jupiter2.jpg',
       text: 'Buy using Jupiter',
       name: 'JUPITER',
-      image_style: 'object-left',
+      image_style: '',
       link: 'https://jup.ag/swap/SOL-STSHIP_GHtLF7drbYXGTHX73uSxqPKkJUzDqcBNe2M9fzjJzr3j'
     },
     {
