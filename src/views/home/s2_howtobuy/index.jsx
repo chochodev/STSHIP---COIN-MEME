@@ -41,7 +41,7 @@ const HowToBuy = () => {
       </div>
         
       <h1 className="text-[1.25rem] text-[#ffffff] font-semibold font-montserrat tracking-[15%] w-full text-center ">SOLANA TOKEN</h1>
-      <div className='flex flex-col gap-[1rem] p-[.5rem] sm:p-[1rem] w-[90%] max-w-[80rem] mx-auto bg-background rounded-[8px] border-solid border-[1px] border-secondary'>
+      <div className='flex flex-col gap-[1rem] p-[.5rem] sm:p-[1rem] w-full md:w-[90%] mx-auto bg-background rounded-[8px] border-solid border-[1px] border-secondary'>
         <div className='flex justify-between items-center gap-[1rem] md:gap-[3.5rem] '>
           <p className='text-tertiary2 text-[.75rem] md:text-[1.25rem] select-none'>Token name:</p>
           <p className='text-[.875rem] sm:text-[1rem] md:text-[1.15rem] md:text-[1.5rem]'>StarShip(STSHIP)</p>
