@@ -65,7 +65,7 @@ const HowToBuy = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default HowToBuy
