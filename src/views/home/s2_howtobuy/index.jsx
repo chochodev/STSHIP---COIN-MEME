@@ -71,8 +71,8 @@ const HowToBuy = () => {
       
       <>
       <h1 className="text-[1.25rem] text-[#ffffff] font-semibold font-montserrat tracking-[15%] iw-full text-center ">ABOUT US</h1>
-      <div className='flex flex-col justify-center lg:justify-evenly gap-y-[2rem] items-center text-center w-full max-w-[45rem] mx-auto'>
-        <h2 className='text-secondary text-[1.15rem] md:text-[1.25rem] lg:text-[1.5rem] text-center font-semibold'>STARSHIP🚀 - $STSHIP MEME TOKEN</h2>
+      <div className='flex flex-col justify-center lg:justify-evenly gap-y-[1rem] md:gap-y-[2rem] items-center md:text-center w-full max-w-[45rem] mx-auto p-[2%]'>
+        <h2 className='text-secondary text-[1.15rem] md:text-[1.25rem] lg:text-[1.5rem] w-full md:text-center font-semibold'>STARSHIP🚀 - $STSHIP MEME TOKEN</h2>
         <p className='text-[1.05rem] md:text-[1.15rem] lg:text-[1.35rem]'>
           $STSHIP is a meme-centric cryptocurrency token inspired by Elon Musk's SpaceX Starship rocket development. This unique Solana meme coin is community-driven and combines the excitement of space exploration with the popular appeal of memes.
           <br/><br/>

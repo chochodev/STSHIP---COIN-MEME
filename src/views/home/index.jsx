@@ -6,7 +6,7 @@ import Tokenomic from './s4_tokenomics';
 import Update from './s5_updates';
 import Latest from './lateststweet';
 import Video from './s6_videos';
-import Partnership from './s7_partnership';
+// import Partnership from './s7_partnership';
 import Roadmap from './s8_roadmap';
 import QA from './s9_q&a';
 
