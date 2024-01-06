@@ -29,7 +29,7 @@ const Hero = () => {
           </Link>
         </div>
         <div className="flex justify-center md:justify-end text-center items-center gap-[.5rem] md:gap-[.875rem] w-full pt-[4rem] ">
-          <a href="https://twitter.com/StarShip_Sol" className='h-[3rem] border-r-[2px]'>
+          <a href="https://twitter.com/StarShip_Sol"  target='_blank' rel='noopener noreferrer' className='h-[3rem] border-r-[2px]'>
             <RiTwitterFill className='text-[1.875rem] md:text-[2.95rem] text-tertiary2' />
           </a>
           {/* <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p> */}
