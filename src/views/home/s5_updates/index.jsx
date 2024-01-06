@@ -10,6 +10,10 @@ const Update = () => {
         <Tweet id={'1738276406537187814'} />
         <Tweet id={'1738258931804152307'} />
         <Tweet id={'1738248502864396695'} />
+
+        {/* 
+        <a class="twitter-timeline" href="https://twitter.com/StarShip_Sol?ref_src=twsrc%5Etfw">Tweets by StarShip_Sol</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        */}
       </div>
       
     </div>
