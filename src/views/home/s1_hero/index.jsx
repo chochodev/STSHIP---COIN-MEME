@@ -49,7 +49,7 @@ const Hero = () => {
             <img src='assets/images/gecko_terminal.png' alt='GECKO-TERMINAL' className='h-[1.875rem] md:h-[2.875rem] w-[1.875rem] md:w-[2.875rem] rounded-[20rem] object-contain' />
           </a>
           {/* <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p> */}
-          <a href="https://www.dextools.io/widget-chart/en/solana/pe-light/AtNmDy6pkhQeeD72j5cRa7cy7MoFs759XRre3tA7uDpJ?theme=light&chartType=2&chartResolution=30&drawingToolbars=false" className='h-[3rem] overflow-hidden'>
+          <a href="https://www.dextools.io/widget-chart/en/solana/pe-light/AtNmDy6pkhQeeD72j5cRa7cy7MoFs759XRre3tA7uDpJ?theme=light&chartType=2&chartResolution=30&drawingToolbars=false" target='_blank' rel='noopener noreferrer' className='h-[3rem] overflow-hidden'>
             <img src='assets/images/dexscreener.png' alt='DEXSCREENER' className='h-[1.875rem] md:h-[2.875rem] w-[1.875rem] md:w-[2.875rem] rounded-[20rem] object-contain' />
           </a>
           {/* <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p> */}
