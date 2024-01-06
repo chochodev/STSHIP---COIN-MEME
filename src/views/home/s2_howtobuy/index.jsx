@@ -55,7 +55,7 @@ const HowToBuy = () => {
       </>
 
       <>
-      <h1 className="text-[1.25rem] text-[#ffffff] font-semibold font-montserrat tracking-[15%] w-full text-center ">HOW TO BUY</h1>
+      <h1 className="text-[1.25rem] text-[#ffffff] font-semibold font-montserrat tracking-[15%] w-full text-center mt-[2rem]">HOW TO BUY</h1>
       <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly gap-y-[4rem] items-center w-full">
         {items.map((item, index) => (
           <div className="flex flex-col gap-[1rem] w-[80%] max-w-[25rem] lg:w-[22%] min-w-[18rem]" key={index}>
@@ -70,7 +70,7 @@ const HowToBuy = () => {
       </>
       
       <>
-      <h1 className="text-[1.25rem] text-[#ffffff] font-semibold font-montserrat tracking-[15%] iw-full text-center ">ABOUT US</h1>
+      <h1 className="text-[1.25rem] text-[#ffffff] font-semibold font-montserrat tracking-[15%] w-full text-center mt-[2rem] mb-[-2rem]">ABOUT US</h1>
       <div className='flex flex-col justify-center lg:justify-evenly gap-y-[1rem] md:gap-y-[2rem] items-center md:text-center w-full max-w-[45rem] mx-auto p-[2%]'>
         <h2 className='text-secondary text-[1.15rem] md:text-[1.25rem] lg:text-[1.5rem] w-full md:text-center font-semibold'>STARSHIP🚀 - $STSHIP MEME TOKEN</h2>
         <p className='text-[1.05rem] md:text-[1.15rem] lg:text-[1.35rem]'>
