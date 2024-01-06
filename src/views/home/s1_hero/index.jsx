@@ -37,7 +37,7 @@ const Hero = () => {
             <RiTelegramFill className='text-[1.9rem] md:text-[2.95rem] text-tertiary2' />
           </a>
           {/* <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p> */}
-          <a href="https://www.coingecko.com/en/coins/starship-4" className='h-[3rem] overflow-hidden'>
+          <a href="https://www.coingecko.com/en/coins/starship-4" target='_blank' rel='noopener noreferrer' className='h-[3rem] overflow-hidden'>
             <img src='assets/images/coin_gecko.png' alt='COIN-GECKO' className='h-[1.875rem] md:h-[2.875rem] w-[1.875rem] md:w-[2.875rem] rounded-[20rem] object-contain' />
           </a>
           {/* <p className="text-[1.5rem] text-tertiary2 pb-2 ">|</p> */}
