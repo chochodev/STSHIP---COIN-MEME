@@ -1,21 +1,19 @@
 import React from 'react';
-import { Tweet } from 'react-tweet';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
+// import TwitterContainer from 'components/twitter_container';
 
 const Update = () => {
  
   return (
-    <div id='updates' className='w-full flex flex-col gap-[3rem] lg:pt-[5rem] pb-[10rem] '>
+    <div id='updates' className='w-full flex flex-col gap-[3rem] items-center lg:pt-[5rem] pb-[10rem] '>
       <h1 className="text-[1.25rem] text-[#ffffff] font-semibold font-montserrat tracking-[15%] w-full text-center ">RECENT UPDATES</h1>
-      <div className="flex flex-col items-center gap-[5rem] lg:gap-[8rem] ">
-        <Tweet id={'1738276406537187814'} />
-        <Tweet id={'1738258931804152307'} />
-        <Tweet id={'1738248502864396695'} />
-
-        {/* 
-        <a class="twitter-timeline" href="https://twitter.com/StarShip_Sol?ref_src=twsrc%5Etfw">Tweets by StarShip_Sol</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        */}
+      <div className="max-w-[55rem] ">
+      <TwitterTimelineEmbed
+        sourceType="profile"
+        screenName="StarShip_Sol"
+        options={{tweetLimit: '3'}}
+      />
       </div>
-      
     </div>
   );
 };
