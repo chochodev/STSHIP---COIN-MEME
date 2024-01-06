@@ -18,11 +18,11 @@ const Home = () => {
       <HowToBuy />
       {/* <Charts /> */}
       <Tokenomic />
-      <Update />
+      <Roadmap />
       <Latest />
       <Video />
-      <Partnership />
-      <Roadmap />
+      {/* <Partnership /> */}
+      <Update />
       <QA />
     </div>
     
