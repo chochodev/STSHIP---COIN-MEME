@@ -53,7 +53,9 @@ const TwitterContainer = () => {
       if (twitterTimeline) {
         const width = window.innerWidth >= 768 ? 700 : 310;
         twitterTimeline.setAttribute("data-width", `${width}`);
-        window.twttr.widgets.load();
+        if (window.twttr && window.twttr.widgets) {
+          window.twttr.widgets.load();
+        }
       }
     };
   
